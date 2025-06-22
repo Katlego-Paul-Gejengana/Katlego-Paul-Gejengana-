@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Katlego Paul Gejengana - IT Professional</title>
+<style>
+  /* Reset & base */
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f5f7fa;
+    color: #333;
+  }
+  a {
+    color: #89aaff;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+  /* Container */
+  .container {
+    max-width: 900px;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 12px 25px rgba(10, 22, 64, 0.15);
+    padding: 30px 40px;
+  }
+
+  /* Header */
+  header {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    border-bottom: 2px solid #273c75;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+  }
+
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+    background: #273c75; /* Navy background placeholder */
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(39, 60, 117, 0.4);
+    flex-shrink: 0;
+  }
+  .profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .header-text {
+    flex: 1;
+  }
+  .header-text h1 {
+    margin: 0;
+    font-size: 2.4rem;
+    color: #273c75;
+  }
+  .header-text p {
+    margin: 6px 0 0;
+    font-weight: 600;
+    color: #4a4a4a;
+  }
+  .contact-info {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: #6c6c6c;
+  }
+
+  /* Navigation */
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background: #273c75;
+    padding: 12px 0;
+    border-radius: 8px;
+    margin-bottom: 40px;
+  }
+  nav a {
+    color: #f5f7fa;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    padding: 6px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  nav a:hover {
+    background: #576cdf;
+    color: white;
+  }
+
+  /* Section titles */
+  section h2 {
+    color: #273c75;
+    border-bottom: 3px solid #576cdf;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+
+  /* Lists and paragraphs */
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #4a4a4a;
+    margin-bottom: 30px;
+  }
+  ul li {
+    margin-bottom: 8px;
+  }
+  p {
+    line-height: 1.6;
+    color: #4a4a4a;
+  }
+
+  /* Experience & Education blocks */
+  .job, .education-item {
+    margin-bottom: 20px;
+  }
+  .job strong, .education-item strong {
+    color: #273c75;
+    font-size: 1.05rem;
+  }
+  .job span, .education-item span {
+    font-style: italic;
+    color: #6c6c6c;
+    font-size: 0.9rem;
+  }
+
+  /* References */
+  .references ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .references li {
+    margin-bottom: 15px;
+    color: #4a4a4a;
+  }
+
+  /* Footer */
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px 10px;
+    background-color: #d1d5db;
+    border-radius: 0 0 12px 12px;
+    font-size: 0.9rem;
+    color: #555;
+  }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    header {
+      flex-direction: column;
+      text-align: center;
+      gap: 15px;
+    }
+    .profile-pic {
+      width: 100px;
+      height: 100px;
+      margin: 0 auto;
+    }
+    nav {
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <header>
+    <div class="profile-pic" title="Your Photo Here">
+      <!-- Replace the img src below with your photo URL or leave empty to show placeholder -->
+      <!-- <img src="your-photo.jpg" alt="Katlego Paul Gejengana"> -->
+    </div>
+    <div class="header-text">
+      <h1>Katlego Paul Gejengana</h1>
+      <p>IT Professional | Data Analyst | IT Administrator</p>
+      <div class="contact-info">
+        <div>📍 Johannesburg, South Africa</div>
+        <div>📞 +27 76 677 1636</div>
+        <div>✉️ katlego7788@gmail.com</div>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#summary">Summary</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#references">References</a>
+  </nav>
+
+  <section id="summary">
+    <h2>Professional Summary</h2>
+    <p>I am an entry-level IT professional based in Johannesburg. Focused and driven, I embrace new challenges and am passionate about the IT industry. I aim to continuously grow through learning and experience.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Key Skills</h2>
+    <ul>
+      <li>Time Management</li>
+      <li>Creativity &amp; Productivity</li>
+      <li>Adaptability</li>
+      <li>Team Collaboration</li>
+      <li>Technical Problem Solving</li>
+      <li>Data Analysis</li>
+      <li>Computer Hardware</li>
+      <li>Programming Languages</li>
+    </ul>
+  </section>
+
+  <section id="experience">
+    <h2>Professional Experience</h2>
+    <div class="job">
+      <strong>IT Administrator</strong> <span>| BritelinkMCT | Mar 2025 – Present</span>
+      <ul>
+        <li>Manage IT infrastructure, user support, troubleshooting, system updates, and data security.</li>
+      </ul>
+    </div>
+    <div class="job">
+      <strong>Junior IT Administrator</strong> <span>| BritelinkMCT | Nov 2023 – Feb 2025</span>
+      <ul>
+        <li>Maintained and troubleshot IT systems and infrastructure.</li>
+      </ul>
+    </div>
+    <div class="job">
+      <strong>Junior Payroll Administrator</strong> <span>| BritelinkMCT | May 2023 – Oct 2023</span>
+      <ul>
+        <li>Processed salaries, leave tracking, and payroll documentation.</li>
+      </ul>
+    </div>
+    <div class="job">
+      <strong>Data Analyst Intern</strong> <span>| Afrika Tikkun Services | Oct 2022 – Apr 2023</span>
+      <ul>
+        <li>Created reports and visual dashboards using Excel and Power BI.</li>
+      </ul>
+    </div>
+    <div class="job">
+      <strong>Data Analysis Trainee</strong> <span>| Afrika Tikkun Services | May 2022 – Sep 2022</span>
+      <ul>
+        <li>Cleaned and organized data, assisted senior analysts with insights.</li>
+      </ul>
+    </div>
+    <div class="job">
+      <strong>Data Capturer Supervisor</strong> <span>| Stats SA | Feb 2022 – Apr 2022</span>
+      <ul>
+        <li>Led data entry team, ensured quality control and accuracy.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="education-item">
+      <strong>BSc in Information Technology</strong><br />
+      Richfield Graduate Institute of Technology (2023–2025)
+    </div>
+    <div class="education-item">
+      <strong>Matric</strong><br />
+      College of Cape Town (2021)
+    </div>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Microsoft Excel Associate Specialist</li>
+      <li>Microsoft Power BI PL-300</li>
+      <li>Microsoft Azure Fundamentals AZ-900</li>
+      <li>Microsoft Power Platform PL-900</li>
+      <li>Microsoft Power Platform App Maker Associate</li>
+      <li>Microsoft Certified: Fabric Analytics Engineer Associate</li>
+      <li>Microsoft Dynamics 365 Fundamentals (CRM)</li>
+    </ul>
+  </section>
+
+  <section id="references">
+    <h2>References</h2>
+    <ul>
+      <li><strong>Aidan Wing</strong> – Tier Two Lead, BritelinkMCT<br /><a href="mailto:aidan@britelinkmct.co.za">aidan@britelinkmct.co.za</a></li>
+      <li><strong>Matshedisho Motsi</strong> – Project Manager, Afrika Tikkun NPC<br /><a href="mailto:matshedishom@afrikatikkun.org">matshedishom@afrikatikkun.org</a></li>
+      <li><strong>Lindiwe Dithagiso</strong> – Supervisor, Stats SA<br /><a href="mailto:lumkwanal@gmail.com">lumkwanal@gmail.com</a></li>
+    </ul>
+  </section>
+
+</div>
+
+<footer>
+  &copy; 2025 Katlego Paul Gejengana. All Rights Reserved.
+</footer>
+
+</body>
+</html>
